@@ -1,0 +1,19 @@
+{
+  "name": "Clickbait.fail",
+  "description": "Punishes anyone who uses clickbait",
+  "scripts": {
+    "start": "forever start src/app.js",
+    "stop": "forever stop src/app.js",
+    "build": "",
+    "watch": ""
+  },
+  "dependencies": {
+    "dropbox": "^0.10.3",
+    "express": "^4.10.1",
+    "forever": "^0.12.0",
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.9"
+  }
+}
