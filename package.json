@@ -1,19 +1,24 @@
 {
-  "name": "Clickbait.fail",
-  "description": "Punishes anyone who uses clickbait",
+  "name": "clickbait.fail",
+  "version": "1.0.0",
+  "description": "Measuring reputation damage caused by political polarization",
+  "main": "index.js",
   "scripts": {
-    "start": "forever start src/app.js",
-    "stop": "forever stop src/app.js",
-    "build": "",
-    "watch": ""
+    "test": "node node_modules/mocha/bin/mocha",
+    "start": "node node_modules/forever/bin/forever start index.js",
+    "stop": "node node_modules/forever/bin/forever stop index.js"
   },
+  "author": "Patrick Ryan",
+  "license": "ISC",
   "dependencies": {
-    "dropbox": "^0.10.3",
-    "express": "^4.10.1",
-    "forever": "^0.12.0",
-    "lodash": "^2.4.1"
+    "body-parser": "^1.9.3",
+    "compression": "^1.2.1",
+    "express": "^4.10.2",
+    "forever": "^0.13.0",
+    "sentiment": "^1.0.2",
+    "twitter": "^0.2.13"
   },
   "devDependencies": {
-    "gulp": "^3.8.9"
+    "mocha": "^2.0.1"
   }
 }

@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Patrick Ryan -- Programmer -- @12dCode
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    PureCSS, Zepto, Modernizr, ChartJS
+    Node, NPM, Forever, Express, Sentiment

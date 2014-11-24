@@ -3,7 +3,6 @@ logs
 *.log
 
 # Flat files
-databases/
 
 # Runtime data
 pids
@@ -29,3 +28,6 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+# Twitter
+twitter.json
